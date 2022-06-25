@@ -1,10 +1,14 @@
-import streamlit as st
-import pandas as pd
 import numpy as np
+import pandas as pd
+import matplotlib
+import matplotlib.pyplot as plt
+import seaborn as sns
 import plotly.express as px
+from scipy import stats
+
+%matplotlib inline
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 import altair as alt
 
 print('installation is ready')
