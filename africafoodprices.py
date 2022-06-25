@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlip.pyplot as plt
 import altair as alt
 
 print('installation is ready')
