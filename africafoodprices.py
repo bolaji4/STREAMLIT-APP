@@ -10,8 +10,8 @@ print('installation is ready')
 
 #@st.cache # it save the data to the browser.
 def get_data():
-    url = "./datasets/africa_food_prices.csv"
-    df = pd.read_csv('./datasets/africa_food_prices.csv')
+    url = ('./datasets/africa_food_prices.csv')
+    df = pd.read_csv(url)
     all_cols = ['Unnamed: 0', 'country_id', 'country', 'state_id', 'state', 'market_id',
        'market', 'produce_id', 'produce', 'currency_id', 'currency', 'pt_id',
        'market_type', 'um_unit_id', 'quantity', 'month', 'year', 'price',
