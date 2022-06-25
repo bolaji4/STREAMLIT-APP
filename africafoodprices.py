@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 from scipy import stats
-
-%matplotlib inline
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import altair as alt
