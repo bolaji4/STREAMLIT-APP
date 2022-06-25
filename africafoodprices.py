@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from scipy import stats
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import altair as alt
